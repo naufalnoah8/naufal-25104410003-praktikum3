@@ -7,11 +7,11 @@ int main()
 	int n;
      
 	 cout << "Masukan jumlah baris : ";
-	 cin >> n; // jumlah baris yang dimasukan
+	 cin >> n; // jumlah baris yang ingin dimasukan
 
 	 for (int i = 0; i < n; i++) // i = baris yang dimulai dari 0
 	 {  
-		for (int spasi = 0; spasi < n - i; spasi++) // memberi spasi agar membentuk segitiga
+		for (int spasi = 0; spasi < n - i; spasi++) // memberi spasi agar membentuk segitiga 
 		{
 			cout << " ";
 		}
@@ -22,7 +22,9 @@ int main()
 			cout << val << " ";
 			val = val * (i - j) / (j + 1); // rumus untuk menghitung angka selanjutnya
 		}
-		cout << endl;
+		cout << endl;  
+		/*maaf kurang rapi
+		 hehe masih belajar*/
 	 }
 	 return 0;
 }
